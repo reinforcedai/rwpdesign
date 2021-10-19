@@ -10,7 +10,7 @@
       <Testimonials :testimonials=testimonials />
     </v-col>
 
-    <SocialHead :title="title" :description="description" />
+    <SocialHead :title="title" :description="description" :image="image" />
   </v-row>
 </template>
 <script>
@@ -20,6 +20,7 @@ export default {
     transition: '',
     title: 'Home',
     description: '',
+    image: 'https://res.cloudinary.com/reinforcedai/image/upload/v1634629726/segreto-016_jyqx3j.jpg',
     items: [
         {
           title: '',

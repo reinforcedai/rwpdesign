@@ -17,7 +17,7 @@ export default {
     },
     image: {
       type: String,
-      default: ''
+      default: 'https://res.cloudinary.com/reinforcedai/image/upload/v1634629726/segreto-016_jyqx3j.jpg'
     }
   },
   head() {

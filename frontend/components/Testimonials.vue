@@ -3,7 +3,7 @@
     <v-col
       v-for='testimonial in testimonials'
       :key='testimonial.id'
-      cols="10"
+      cols="11"
       md="4"
     >
       <v-card
