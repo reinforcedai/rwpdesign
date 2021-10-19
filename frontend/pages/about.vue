@@ -3,14 +3,14 @@
 
     <v-col cols="12">
       <v-row justify="center" class="fill-height">
-        <v-col cols="12" class="text-center">
+        <v-col cols="12" class="text-center pt-10">
           <h1 class="primary--text font-weight-bold text-h4">{{ title }}</h1>
         </v-col>
         <v-col cols="11" md="5">
           <v-img
             :src="require('../assets/img/segreto-016.jpeg')"
             alt="photo"
-            class=""
+            class="primary--text"
           />
         </v-col>
         <v-col cols="11" md="5">

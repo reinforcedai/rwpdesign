@@ -53,7 +53,7 @@ export default {
     items: [
         {
           title: 'Design Consultancy',
-          src: require('../assets/img/segreto-016.jpeg'),
+          src: require('../assets/img/design-consultancy-img.webp'),
           text: 'Book for an hour and discover how we can transform your space',
           duration: '1 hr',
           cost: '950 AED',
@@ -61,7 +61,7 @@ export default {
         },
         {
           title: 'Space Audit',
-          src: require('../assets/img/segreto-016.jpeg'),
+          src: require('../assets/img/space-audit-img.webp'),
           text: 'How many people can your space accomodate',
           duration: '6 hr',
           cost: '5,200 AED',
@@ -69,7 +69,7 @@ export default {
         },
         {
           title: 'Design Brief and Concept Pack',
-          src: require('../assets/img/segreto-016.jpeg'),
+          src: require('../assets/img/design-brief-img.webp'),
           text: 'Design Pack suitable to assess the look and feel of the space',
           duration: '40 hr',
           cost: 'Contact Us',

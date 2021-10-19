@@ -17,7 +17,7 @@
           :src="getMedia(photo.image.url)"
           height="300"
           alt="image"
-          class=""
+          class="primary--text"
         />
         <h3 class="primary--text text-center">{{ photo.title }}</h3>
       </v-card>
