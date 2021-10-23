@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "testimonies",
+  "collectionName": "testimonials",
   "info": {
-    "name": "Testimony",
-    "description": ""
+    "name": "Testimonial"
   },
   "options": {
     "increments": true,
@@ -13,6 +12,9 @@
   "pluginOptions": {},
   "attributes": {
     "name": {
+      "type": "string"
+    },
+    "portfolio": {
       "type": "string"
     },
     "image": {
@@ -26,9 +28,6 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
-    },
-    "portfolio": {
-      "type": "string"
     },
     "testimony": {
       "type": "text"
