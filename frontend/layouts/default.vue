@@ -11,6 +11,6 @@
 </template>
 <style>
 html, body {
-  background: #101010;
+  background: #010101;
 }
 </style>
