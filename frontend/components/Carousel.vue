@@ -14,49 +14,42 @@
       >
         <v-row align="center" justify="center" class="fill-height">
           <v-col class="text-center primary--text">
-            <h1 class="text-uppercase font-weight-bold text-md-h2 text-h4">{{ slide.text }}</h1>
+            <h1 class="text-capitlize font-weight-bold text-md-h2 text-h4">{{ slide.text }}</h1>
             <v-btn
               outlined
               x-large
               class="primary--text mt-10"
-            >Contact Us</v-btn>
+            >
+              Contact Us
+            </v-btn>
           </v-col>
         </v-row>
       </v-carousel-item>
     </v-carousel>
 </template>
+
 <script>
+
+import { getMedia } from "../utils/medias";
+
   export default {
+
+    props: {
+      slides: {
+        type: Array,
+        default: () => ({}),
+      },
+    },
+
+    methods: {
+      getMedia,
+    },
+  
     data () {
       return {
         cycle: true,
-        slides: [
-          {
-            src: require('../assets/img/segreto-016.jpeg'),
-            text: 'Commercial',
-          },
-          {
-            src: require('../assets/img/segreto-terrace.jpeg'),
-            text: 'Residential',
-          },
-          {
-            src: require('../assets/img/firmenich-1-grande.jpeg'),
-            text: 'Furniture Design',
-          },
-          {
-            src: require('../assets/img/mv3.jpeg'),
-            text: 'Commercial',
-          },
-          {
-            src: require('../assets/img/mv4.jpeg'),
-            text: 'Landscaping',
-          },
-          {
-            src: require('../assets/img/mv5.jpeg'),
-            text: 'Interior Architecture',
-          },
-        ],
       }
     },
+
   }
 </script>

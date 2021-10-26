@@ -74,14 +74,14 @@
       >
       </v-app-bar-nav-icon>
       <nuxt-link to="/" exact class="text-decoration-none ml-5">
-      <h1>{{ siteName }}</h1>
-        <!-- <v-img
-          contain
-          src=""
+        <v-img
           alt="logo"
-          class="mx-auto"
-          width="200"
-        /> -->
+          contain
+          :src="require('../assets/img/logo.png')"
+          transition="scale-transition"
+          width="100"
+          class="shrink"
+        />
       </nuxt-link>
       <v-spacer/>
       <v-toolbar-items class="hidden-sm-and-down pr-16">

@@ -1,10 +1,11 @@
 <template>
-  <v-row justify="center" align="center" class="fill-height py-5" no-gutters>
+  <v-row justify="center" align="center" class="fill-height px-2" no-gutters>
     <v-col
       v-for='testimonial in testimonials'
       :key='testimonial.id'
-      cols="11"
+      cols="12"
       md="4"
+      class="pa-2"
     >
       <v-card
         flat
