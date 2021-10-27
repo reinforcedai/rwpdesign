@@ -13,7 +13,7 @@ phases:
     commands:
       - npm run build
       - echo Building the Node code...
-      - cd $CODEBUILD_SRC_DIR/nodejs-app
+      - cd $CODEBUILD_SRC_DIR/backend
       - npm run test
 
   post_build:
