@@ -12,12 +12,12 @@ const HomePage = ({ global: { plugins }, history: { push } }) => {
 
   useEffect(() => {
     let fetchCounts = async () => {
-      let users = await axios.get("http://localhost:1337/writers/count");
+      // let users = await axios.get("http://localhost:1337/users/count");
       let contacts = await axios.get("http://localhost:1337/contacts/count");
       let gelleries = await axios.get("http://localhost:1337/galleries/count");
       let testimonials = await axios.get("http://localhost:1337/testimonials/count");
-      if (users.status == 200) {
-        setUsersCount(users.data);
+      if (testimonials.status == 200) {
+        // setUsersCount(users.data);
         setContactsCount(contacts.data);
         setGalleriesCount(gelleries.data);
         setTestimonialsCount(testimonials.data);

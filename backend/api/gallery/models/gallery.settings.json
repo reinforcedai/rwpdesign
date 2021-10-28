@@ -2,8 +2,7 @@
   "kind": "collectionType",
   "collectionName": "galleries",
   "info": {
-    "name": "Gallery",
-    "description": ""
+    "name": "Gallery"
   },
   "options": {
     "increments": true,

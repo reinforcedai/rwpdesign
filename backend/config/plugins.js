@@ -4,7 +4,7 @@ module.exports = ({ env }) => ({
     providerOptions: {
       key: env('AWS_ACCESS_KEY_ID'),
       secret: env('AWS_ACCESS_SECRET'),
-      amazon: env('AWS_REGION'),
+      amazon: env('AWS_SES_REGION'),
     },
     settings: {
       defaultFrom: 'eneotujoe@gmail.com',
@@ -18,7 +18,7 @@ module.exports = ({ env }) => ({
     providerOptions: {
       accessKeyId: env('AWS_ACCESS_KEY_ID'),
       secretAccessKey: env('AWS_ACCESS_SECRET'),
-      region: env('AWS_REGION'),
+      region: env('AWS_S3_REGION'),
       params: {
         Bucket: env('AWS_BUCKET_NAME'),
       },

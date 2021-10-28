@@ -7,8 +7,7 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi",
-    "test": "echo \"run some tests here\""
+    "strapi": "strapi"
   },
   "devDependencies": {},
   "dependencies": {
@@ -17,6 +16,7 @@
     "knex": "0.21.18",
     "mime-types": "^2.1.27",
     "pg": "^8.7.1",
+    "pg-connection-string": "^2.5.0",
     "react-chartjs-2": "^3.2.0",
     "sqlite3": "5.0.0",
     "strapi": "3.6.8",
@@ -37,8 +37,7 @@
     "name": "Eneotu Joe"
   },
   "strapi": {
-    "uuid": "371847d7-de42-4aac-b144-4e11eadc156b",
-    "template": "https://github.com/strapi/strapi-template-blog"
+    "uuid": "191bf837-0ea2-46eb-97c0-6a6927f82998"
   },
   "engines": {
     "node": ">=10.16.0 <=14.x.x",
