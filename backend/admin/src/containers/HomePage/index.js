@@ -12,10 +12,10 @@ const HomePage = ({ global: { plugins }, history: { push } }) => {
 
   useEffect(() => {
     let fetchCounts = async () => {
-      // let users = await axios.get("http://localhost:1337/users/count");
-      let contacts = await axios.get("http://localhost:1337/contacts/count");
-      let gelleries = await axios.get("http://localhost:1337/galleries/count");
-      let testimonials = await axios.get("http://localhost:1337/testimonials/count");
+      // let users = await axios.get("https://rwpdesign-backend.herokuapp.com/users/count");
+      let contacts = await axios.get("https://rwpdesign-backend.herokuapp.com/contacts/count");
+      let gelleries = await axios.get("https://rwpdesign-backend.herokuapp.com/galleries/count");
+      let testimonials = await axios.get("https://rwpdesign-backend.herokuapp.com/testimonials/count");
       if (testimonials.status == 200) {
         // setUsersCount(users.data);
         setContactsCount(contacts.data);
